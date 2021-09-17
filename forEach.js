@@ -22,6 +22,19 @@ what ways can a for loop go wrong?
      console.log(colors[i])
  };
 
+ // colors = [] // forEach = array helper method // function() = anonymous function that get's called once for every element in the array
  colors.forEach(function(color) {
      console.log(color)
  })
+
+/**
+ * forEach takes the first element and passes it to the iterator function.
+ * 
+ * Iterator function runs, and then returns.
+ * 
+ * After the return we take the next item and do the same thing. 
+ * 
+ * forEach behaves same as for loop, why use it?
+ *      forEach is dramatically less code to write
+ *      nowhere near as much logic setting up the bounds of the array
+ */
