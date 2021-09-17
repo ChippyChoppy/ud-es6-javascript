@@ -14,3 +14,4 @@ const images = [
 const heights = images.map(function(image) {
     return image.height
 })
+console.log(heights)
