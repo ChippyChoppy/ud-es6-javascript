@@ -1,0 +1,11 @@
+/**
+ * Map helper in practical programming
+ * 
+ * by far one of most commonly used in frontend development
+ * 
+ *      A lot of the job is just rendering lists of data
+ * 
+ * Take each object representing a post and transform it to something appearing on the screen
+ * 
+ * map over the array, we're not going to mutate the array, instead we'll take info from the objects and put it on the screen
+ */
