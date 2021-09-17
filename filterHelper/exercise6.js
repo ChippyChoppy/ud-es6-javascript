@@ -13,4 +13,9 @@ const filteredNumbers = (array, smallest) => {
         return arg > smallest
     })
 }
+
+const filteredNums2 = nums.filter(function(num) {
+    return num > 50;
+})
 console.log(filteredNumbers(nums, 50))
+console.log(filteredNums2)
