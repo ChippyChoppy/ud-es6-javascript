@@ -1,0 +1,16 @@
+Why would we ever have practical use of forEach?
+
+* swiss army knife of array helpers
+    almost every other helper could be implemented by using forEach
+
+* example: email 
+    * looking at spam folder
+    * select some --> press delete all selected
+    * sends request to server to tell it to delete these emails
+        * clicking email sends it to an array to be deleted
+            emails.forEach(function(email) {
+                deleteEmail(email)
+            })
+        ** Whenever you want to call some method multiple times w/ diff arg each time, consider forEach
+
+        
