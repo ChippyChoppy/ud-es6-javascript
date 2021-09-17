@@ -20,5 +20,7 @@ function commentsForPost(post, comments) {
 console.log(commentsForPost(post, comments));
 
 /**
+ * Working w/ relational data is how we do it
  * 
+ * filtering product data --> canonical example of filter helper
  */
